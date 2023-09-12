@@ -1,7 +1,9 @@
 import tellZodiac from "./zodiac";
 
 import {combineReducers} from "redux";
+
+
 const rootReducer=combineReducers({
-    tellZodiac
+    zodiac: tellZodiac,
 });
 export default rootReducer;
